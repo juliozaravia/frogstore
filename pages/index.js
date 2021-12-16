@@ -1,7 +1,10 @@
+import Page from '../components/Page';
+
 export default function HomePage() {
   return (
-    <div>
+    <Page>
       <p>Home Page!</p>
-    </div>
+      <p>There's nothing as home!</p>
+    </Page>
   );
 }
